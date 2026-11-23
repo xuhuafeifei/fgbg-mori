@@ -1,0 +1,4 @@
+dist/
+*.oiplugin
+*.key
+.DS_Store

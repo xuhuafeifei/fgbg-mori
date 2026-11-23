@@ -19,7 +19,7 @@ shasum -a 256 fgbg.mori-0.1.0.oiplugin
 
 ```sh
 gh release create v0.1.0 fgbg.mori-0.1.0.oiplugin \
-  --repo xuhuafeifei/openidea-mori --title "Mori 0.1.0" --notes "First release."
+  --repo xuhuafeifei/fgbg-mori --title "Mori 0.1.0" --notes "First release."
 ```
 
 ## Registry
@@ -38,11 +38,11 @@ revoked-keys = []
 `plugins/fgbg.mori.toml`
 
 ```toml
-repository = "https://github.com/xuhuafeifei/openidea-mori"
+repository = "https://github.com/xuhuafeifei/fgbg-mori"
 
 [[versions]]
 version = "0.1.0"
-package = "https://github.com/xuhuafeifei/openidea-mori/releases/download/v0.1.0/fgbg.mori-0.1.0.oiplugin"
+package = "https://github.com/xuhuafeifei/fgbg-mori/releases/download/v0.1.0/fgbg.mori-0.1.0.oiplugin"
 sha256 = "<sha-256 from shasum>"
 ```
 

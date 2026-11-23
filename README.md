@@ -3,7 +3,7 @@
 A grey-green (mung-bean) light theme for [OpenIDEA](https://openidea.sh). Data only: no code,
 no capabilities, nothing to grant.
 
-![Mori](https://raw.githubusercontent.com/xuhuafeifei/openidea-mori/main/preview.png)
+![Mori](https://raw.githubusercontent.com/xuhuafeifei/fgbg-mori/main/preview.png)
 
 ## Why another green theme
 

@@ -1,8 +1,8 @@
 # Data-only theme plugin: no wasm, no capabilities.
 id = "fgbg.mori"
 name = "Mori"
-version = "0.2.0"
-description = "A grey-green light theme: layered surfaces, three text tiers, neutral borders and calm syntax colours."
+version = "0.3.0"
+description = "Mung-bean light themes in four depths: layered surfaces, three text tiers, neutral borders."
 authors = ["fgbg"]
 license = "MIT"
 engines.openidea = "^1.2"
@@ -10,13 +10,17 @@ categories = ["themes"]
 icon = "icon.svg"
 
 [[contributes.themes]]
+path = "themes/mori-soft.theme.json"
+editor-scheme = "themes/mori-soft.scheme.json"
+
+[[contributes.themes]]
 path = "themes/mori.theme.json"
 editor-scheme = "themes/mori.scheme.json"
 
 [[contributes.themes]]
-path = "themes/mori-green.theme.json"
-editor-scheme = "themes/mori-green.scheme.json"
-
-[[contributes.themes]]
 path = "themes/mori-deep.theme.json"
 editor-scheme = "themes/mori-deep.scheme.json"
+
+[[contributes.themes]]
+path = "themes/mori-forest.theme.json"
+editor-scheme = "themes/mori-forest.scheme.json"

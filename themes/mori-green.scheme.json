@@ -1,0 +1,12 @@
+{
+  "name": "Mori Green Syntax",
+  "tokens": {
+    "--syn-comment": "#6b7c72",
+    "--syn-doc-comment": "#6b7c72",
+    "--syn-doc-markup": "#6b7c72",
+    "--syn-doc-comment-tag": "#438f72",
+    "--syn-doc-comment-tag-value": "#3d4f44",
+    "--syn-inline-value": "#6b7c72",
+    "--syn-doc-markup-bg": "#dcebdd"
+  }
+}

@@ -1,7 +1,7 @@
 # Data-only theme plugin: no wasm, no capabilities.
 id = "fgbg.mori"
 name = "Mori"
-version = "0.1.0"
+version = "0.2.0"
 description = "A grey-green light theme: layered surfaces, three text tiers, neutral borders and calm syntax colours."
 authors = ["fgbg"]
 license = "MIT"
@@ -12,3 +12,11 @@ icon = "icon.svg"
 [[contributes.themes]]
 path = "themes/mori.theme.json"
 editor-scheme = "themes/mori.scheme.json"
+
+[[contributes.themes]]
+path = "themes/mori-green.theme.json"
+editor-scheme = "themes/mori-green.scheme.json"
+
+[[contributes.themes]]
+path = "themes/mori-deep.theme.json"
+editor-scheme = "themes/mori-deep.scheme.json"
